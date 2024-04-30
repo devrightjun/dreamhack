@@ -1,5 +1,5 @@
 // Name: rao.c
-// Compile: gcc -o rao rao.c -fno-stack-protector -no-pie
+// Compile: gcc -o rao rao.c -fno-stack-protector -no-pie -g
 
 #include <stdio.h>
 #include <unistd.h>
