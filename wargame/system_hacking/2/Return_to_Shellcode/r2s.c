@@ -1,5 +1,6 @@
 // Name: r2s.c
-// Compile: gcc -o r2s r2s.c -zexecstack
+// Compile: gcc -o r2s r2s.c -zexecstack -> NX disabled
+// Compile: gcc -o r2s_nx r2s.c -> NX enabled
 
 #include <stdio.h>
 #include <unistd.h>

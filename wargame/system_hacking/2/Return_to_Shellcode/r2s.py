@@ -6,8 +6,8 @@ from pwn import u64, p64
 def slog(n, m):
     return success(': '.join([n, hex(m)]))
 
-# p = process('./r2s')
-r = remote("host3.dreamhack.games", 10877)
+r = process('./r2s_nx')
+# r = remote("host3.dreamhack.games", 10877)
 
 context.arch = 'amd64'
 
